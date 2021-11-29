@@ -10,6 +10,7 @@ export default createGlobalStyle`
         --light-orange: #F5D5BC ;
         --pink: #C52E91;
         --brown: #A25247;
+        --transparent-black: #31303066;
     }
 
 

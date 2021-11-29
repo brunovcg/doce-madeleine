@@ -1,11 +1,12 @@
 import Styled from "./styles"
 import Layout from "../../components/layout"
+import CarouselComponent from "../../components/carousel"
 const Home = () =>{
 
     return(
         <Styled>
             <Layout>
-                Doce Madeleine
+                <CarouselComponent/>
             </Layout>   
         </Styled>
     )
