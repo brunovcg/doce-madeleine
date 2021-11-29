@@ -6,12 +6,14 @@ import {fab} from "@fortawesome/free-brands-svg-icons"
 
 library.add(fas)
 
+library.add(fab)
+
 
 
 
 
 const Icon = (props) => {
-  return <FontAwesomeIcon className={"th-icon"} {...props} />;
+  return <FontAwesomeIcon  {...props} />;
 };
 
 export default Icon;

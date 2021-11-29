@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Styled = styled.main`
-background-color: var(--light-yellow);
+background-color: var(--pink);
   min-height: 75vh;
 `;
 

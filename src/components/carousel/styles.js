@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const Styled = styled.div`
 
+
 .carousel-caption{
     display: flex;
     justify-content: center;

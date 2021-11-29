@@ -7,15 +7,17 @@ import { Link } from "react-router-dom";
 const NavbarComponent = () => {
   const menuOptions = [
     { title: "Produtos", link: "/", icon: "" },
+    { title: "Orçamento", link: "/", icon: "" },
     { title: "Eventos", link: "/", icon: "" },
     { title: "Clientes", link: "/", icon: "" },
     { title: "Contatos", link: "/", icon: "" },
+    { title: "Sobre nós", link: "/", icon: "" }
   ];
 
   const { width } = useWindowSize();
   return (
     <Styled>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="white" expand="lg">
         <Container>
           {width > 992 && (
             <div className="menu-box">

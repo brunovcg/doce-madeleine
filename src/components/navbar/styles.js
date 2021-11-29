@@ -74,6 +74,8 @@ const Styled = styled.div`
 
     #basic-navbar-nav {
       width: 100%;
+      z-index:6;
+      background-color: white;
 
       .mobile-menu {
         display: flex;
@@ -81,10 +83,14 @@ const Styled = styled.div`
 
         a {
           margin: 20px 0;
+          color: var(--pink);
+          :hover{
+            text-decoration: underline 3px var(--orange);
+          }
 
           span {
             font-size: 30px;
-            margin-left: 15px;
+            margin-left: 40px;
           }
         }
       }
